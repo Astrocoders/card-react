@@ -5,9 +5,7 @@
   "main": "lib/card-react-form-container.js",
   "dependencies": {
     "classnames": "^2.1.2",
-    "payment": "0.0.12",
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7"
+    "payment": "0.0.12"
   },
   "devDependencies": {
     "bourbon": "^4.2.3",
@@ -27,6 +25,10 @@
     "grunt-contrib-uglify": "^0.9.1",
     "grunt-contrib-watch": "^0.6.1",
     "uglify-save-license": "^0.4.1"
+  },
+  "peerDependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
